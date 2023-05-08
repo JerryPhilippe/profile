@@ -1,0 +1,104 @@
+@media (max-width: 1920px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+body {
+  background-color: #2A9D8F;
+  font-family: 'Roboto', sans-serif;
+  color: #E76F51;
+  line-height: 30px;
+  font-size: 16px ;
+}
+
+.card {
+  background-color: #e5c165;
+  border-radius: 4px;
+  padding: 30px;
+  margin: 20px 0px;
+  box-shadow: 2px 2px 3px #565554;
+}
+
+h1{
+  color: #E76F51;
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h2{
+  color: #E76F51;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#profile-pic {
+  width: 150px;
+  height: 150px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.link |{
+  text-decoration: none;
+}
+
+#logo-link {
+  color: black;
+  font-size: 35px;
+}
+
+p{
+  padding: 15px;
+}
+
+.btn{
+  text-decoration: none;
+  font-size: 17px;
+  color: #E76F51;
+  background-color: #264653;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 3px #888888;
+  font-weight: bold;
+
+}
+
+.btn:hover {
+  color: #780116;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
